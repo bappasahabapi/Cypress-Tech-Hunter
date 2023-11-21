@@ -1,0 +1,22 @@
+
+
+### Get all products
+GET http://localhost:5000/products
+Content-Type: application/json
+
+
+### Get single product
+GET http://localhost:5000/product/64ac34922b2527f5c323281f
+Content-Type: application/json
+
+### Create Department
+ POST http://localhost:5000/comment/64ac34922b2527f5c323281f
+ Content-Type: application/json 
+
+ {
+    "comment":"this is a comment "
+ }
+
+### Get comment by id
+GET http://localhost:5000/comment/64ac34922b2527f5c323281f
+Content-Type: application/json
